@@ -1,0 +1,143 @@
+.my-account {
+	padding: 24px;
+	max-width: 920px;
+	margin: 0 auto;
+	color: #0f172a;
+	background: transparent;
+}
+.my-account h2 {
+	margin: 0 0 12px 0;
+	font-size: 1.8rem;
+}
+.profile-row {
+	display: flex;
+	gap: 16px;
+	align-items: center;
+	margin-bottom: 18px;
+}
+.avatar {
+	width: 64px;
+	height: 64px;
+	border-radius: 12px;
+	background: #f3f4f6;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: 700;
+	color: #111827;
+}
+
+.info .name {
+    font-weight: 700;
+    font-size: 1.05rem
+}
+.info .email {
+    color: #6b7280;
+    font-size: 0.95rem
+}
+.account-section {
+    margin-top: 20px
+}
+.account-section h3 {
+    margin: 0 0 8px 0;
+    font-size: 1.05rem 
+}
+.account-row {
+    background: #fff;
+    border: 1px solid #e6e6e6; 
+    padding: 12px; 
+    border-radius: 8px; 
+    display:flex; 
+    flex-direction:column; 
+    gap:8px 
+}
+.field {
+    display:flex; 
+    gap:8px; 
+    align-items:center; 
+}
+.field .label {
+    width: 120px; 
+    color:#6b7280 
+}
+.field .value {
+    font-weight:600 
+}
+.cart-list { 
+    display:flex; 
+    flex-direction:column; 
+    gap:10px; 
+    margin-top:8px 
+}
+.cart-item-row {
+    display:flex; 
+    align-items:center; 
+    gap:12px; 
+    padding:8px; 
+    border:1px solid #eee; 
+    border-radius:8px 
+}
+.cart-item-img {
+    width:60px; 
+    height:60px; 
+    object-fit:cover; 
+    border-radius:6px 
+}
+.cart-item-img.placeholder { 
+    background:#f3f4f6 
+}
+.cart-item-meta {
+    flex:1 
+}
+.cart-item-title { 
+    font-weight:700 
+}
+.cart-item-qty { 
+    color:#6b7280; 
+    font-size:0.95rem 
+}
+.cart-item-price { 
+    font-weight:700 
+}
+
+.order-list { 
+    display:flex; 
+    flex-direction:column; 
+    gap:10px; 
+    margin-top:8px 
+}
+.order-card {
+    border:1px solid #eee; 
+    padding:10px; 
+    border-radius:8px;
+    background-color:#fff
+}
+.order-top {
+    display:flex; 
+    justify-content:space-between;
+    align-items:center 
+}
+.order-id { 
+    font-weight:700 
+}
+.order-total { 
+    font-weight:700 
+}
+.order-meta { 
+    color:#6b7280; 
+    font-size:0.95rem; 
+    margin-top:6px 
+}
+@media (max-width: 992px) {
+.my-account { 
+    padding: 16px 
+}
+.avatar { 
+    width: 56px; 
+    height:56px 
+}
+.field .label { 
+    width: 100px 
+    }
+}
+
